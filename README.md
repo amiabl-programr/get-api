@@ -67,7 +67,7 @@ Returns a JSON object with the following fields:
 
 
 ## 🔗 Hire Developers
-Looking for top-tier developers? Check out these links:
+Looking for top-tier developers? Check out this link:
 - [Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
 ## 📜 License
