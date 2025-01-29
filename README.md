@@ -5,6 +5,7 @@ A simple Express.js API that returns user details, the current date and time in 
 ## 🚀 Features
 - Returns JSON response with user details and current UTC datetime.
 - Lightweight and easy to deploy.
+- Handles CORS for cross-origin requests.
 - Follows RESTful principles.
 
 ## 🛠 Setup Instructions
@@ -25,11 +26,24 @@ npm install
 node index.js
 ```
 
-The server should start on `http://localhost:3000`.
+The server will start on `http://localhost:3000`.
+
+## 🌍 Handling CORS
+This API allows cross-origin requests by using the `cors` middleware. Ensure it is installed:
+
+```sh
+npm install cors
+```
+
+Then, import and use it in your Express app:
+```js
+const cors = require('cors');
+app.use(cors());
+```
 
 ## 📌 API Documentation
 
-### **Endpoint:** `/`
+### **Endpoint:** `https://get-api-six.vercel.app/`
 **Method:** `GET`
 
 #### ✅ Request
@@ -61,7 +75,7 @@ Looking for top-tier developers? Check out these links:
 - [Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
 ## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
+This open-source project is available under the [MIT License](LICENSE).
 
 ---
 
