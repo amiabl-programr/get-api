@@ -46,6 +46,11 @@ app.use(cors());
 ### **Endpoint:** `https://get-api-six.vercel.app/`
 **Method:** `GET`
 
+#### 📝 Example Usage
+```sh
+curl http://localhost:3000/
+```
+
 #### ✅ Request
 No request body is required.
 
@@ -60,10 +65,6 @@ Returns a JSON object with the following fields:
 }
 ```
 
-#### 📝 Example Usage
-```sh
-curl http://localhost:3000/
-```
 
 ## 🔗 Hire Developers
 Looking for top-tier developers? Check out these links:
