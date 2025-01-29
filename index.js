@@ -1,7 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.get('/', (req, res) => {
   const current_date = new Date(new Date()).toISOString();
   res.status(200).json({
