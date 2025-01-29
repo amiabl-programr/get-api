@@ -48,7 +48,7 @@ app.use(cors());
 
 #### 📝 Example Usage
 ```sh
-curl http://localhost:3000/
+curl https://get-api-six.vercel.app/
 ```
 
 #### ✅ Request
